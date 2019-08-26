@@ -1,0 +1,27 @@
+//
+//  ClientConfig.pch
+//  RealmDemo
+//
+//  Created by BaoBaoDaRen on 2019/8/23.
+//  Copyright © 2019 Boris. All rights reserved.
+//
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+
+    #import <Realm/Realm.h>
+
+    #import "ClientDefine.h"
+
+    #import "RealmDataBase.h"
+    #import "RealmDataBaseService.h"
+    #import "RlmTextModel.h"
+    #import "ClientParameterHeader.h"
+
+#endif
