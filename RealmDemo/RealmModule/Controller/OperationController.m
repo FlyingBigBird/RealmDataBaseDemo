@@ -191,7 +191,7 @@
         }
         if (IsStrEmpty(getAge)) {
             
-            getSex = @"0";
+            getAge = @"0";
         }
         
         NSDictionary *mesDic = @{@"name":getName, @"sex":getSex, @"age":getAge};
@@ -280,7 +280,7 @@
         }
         if (IsStrEmpty(getAge)) {
             
-            getSex = @"0";
+            getAge = @"0";
         }
         
         NSDictionary *mesDic = @{@"name":getName, @"sex":getSex, @"age":getAge};
